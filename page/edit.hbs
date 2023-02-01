@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/creat-user.css">
+    <title>Edit</title>
+</head>
+<body>
+    <form method="post">
+        <header class="creat-user">
+            <h1>Редактирование {{elem.UserName}}</h1>
+            <input class="save" type="submit">
+        </header>
+        <div class="flex">
+        <section class="stats">
+            <p>Макс Хп: </p>
+            <input type="text" placeholder="Введи" name="hp" value="{{elem.hp}}">
+            <p>Макс Мана: </p>
+            <input type="text" placeholder="Введи" name="mana" value="{{elem.mana}}">
+            <p>Сила: </p>
+            <input type="text" placeholder="Введи" name="strong" value="{{elem.strong}}">
+            <p>Выносливость: </p>
+            <input type="text" placeholder="Введи" name="endurance" value="{{elem.endurance}}">
+            <p>Ловкость: </p>
+            <input type="text" placeholder="Введи" name="agility" value="{{elem.agility}}">
+            <p>Интеллект: </p>
+            <input type="text" placeholder="Введи" name="intelligence" value="{{elem.intelligence}}">
+            <p>Защита: </p>
+            <input type="text" placeholder="Введи" name="protection" value="{{elem.protection}}">
+            <p>Свет: </p>
+            <input type="text" placeholder="Введи" name="light" value="{{elem.light}}">
+            <p>Тьма: </p>
+            <input type="text" placeholder="Введи" name="dark" value="{{elem.dark}}">
+        </section>
+        <section class="wallet">
+            <h2>Кошелек</h2>
+            <div class="wallet-box">
+                <input class="wallet-P" type="text" placeholder="П.М." name="platinum" value="{{elem.platinum}}">
+                <input class="wallet-G" type="text" placeholder="З.М." name="gold" value="{{elem.gold}}">
+                <input class="wallet-S" type="text" placeholder="С.М." name="silver" value="{{elem.silver}}">
+                <input class="wallet-C" type="text" placeholder="М.М." name="cuprum" value="{{elem.cuprum}}">
+            </div>
+        </section>
+        </div>
+    </form>
+</body>
+</html>

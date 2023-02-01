@@ -1,0 +1,38 @@
+1[
+	{
+		"UserName": " Тым ЭлЪ",
+		"UserPassword": "000",
+		"hp": "4",
+		"mana": "6",
+		"strong": "77",
+		"endurance": "4443",
+		"agility": "5",
+		"intelligence": "-1",
+		"protection": "3",
+		"light": "2",
+		"dark": "12",
+		"platinum": "1",
+		"gold": "432",
+		"silver": "34",
+		"cuprum": "34",
+		"id": "38158675-7ab3-4d98-9b82-b87b1dd5ee03"
+	},
+	{
+		"UserName": "Марк",
+		"UserPassword": "1234",
+		"hp": "100",
+		"mana": "10",
+		"strong": "1",
+		"endurance": "1",
+		"agility": "2",
+		"intelligence": "4",
+		"protection": "5",
+		"light": "67",
+		"dark": "7",
+		"platinum": "23",
+		"gold": "45",
+		"silver": "23",
+		"cuprum": "6",
+		"id": "57eab899-9e09-4279-b525-32469ff8a939"
+	}
+]

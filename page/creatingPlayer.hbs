@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/creat-user.css">
+    <title>Creating a Player</title>
+</head>
+<body class="body">
+    <form method="post">
+        <header class="creat-user">
+            <h1>Создание Перса</h1>
+            <div class="creat-user-box">
+                <input type="text" placeholder="Имя игрока" name="UserName" value="">
+                <input type="password" placeholder="Пароль" name="UserPassword" value="">
+                <input class="save" type="submit">
+            </div>
+        </header>
+        <div class="flex">
+        <section class="stats">
+            <p>Макс Хп: </p>
+            <input type="text" placeholder="Введи" name="hp" value="0">
+            <p>Макс Мана: </p>
+            <input type="text" placeholder="Введи" name="mana" value="0">
+            <p>Сила: </p>
+            <input type="text" placeholder="Введи" name="strong" value="0">
+            <p>Выносливость: </p>
+            <input type="text" placeholder="Введи" name="endurance" value="0">
+            <p>Ловкость: </p>
+            <input type="text" placeholder="Введи" name="agility" value="0">
+            <p>Интеллект: </p>
+            <input type="text" placeholder="Введи" name="intelligence" value="0">
+            <p>Защита: </p>
+            <input type="text" placeholder="Введи" name="protection" value="0">
+            <p>Свет: </p>
+            <input type="text" placeholder="Введи" name="light" value="0">
+            <p>Тьма: </p>
+            <input type="text" placeholder="Введи" name="dark" value="0">
+        </section>
+        <section class="wallet">
+            <h2>Кошелек</h2>
+            <div class="wallet-box">
+                <input class="wallet-P" type="text" placeholder="П.М." name="platinum" value="">
+                <input class="wallet-G" type="text" placeholder="З.М." name="gold" value="">
+                <input class="wallet-S" type="text" placeholder="С.М." name="silver" value="">
+                <input class="wallet-C" type="text" placeholder="М.М." name="cuprum" value="">
+            </div>
+        </section>
+        </div>
+    </form>
+</body>
+</html>

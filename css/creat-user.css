@@ -1,0 +1,96 @@
+.creat-user {
+    padding: 20px 50px;
+    background-color: #df853b;
+
+    display: flex;
+    justify-content: space-between;
+}
+.creat-user h1 {
+    display: block;
+    white-space: nowrap;
+    margin-top: 5px;
+    font-size: 35px;
+
+    color: #1c1c1c;
+}
+.creat-user-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.creat-user-box input {
+    margin-right: 10px;
+}
+.save {
+    background-color: #ff8f44;
+}
+.save input {
+    padding: 5px;
+    font-size: 18px;
+    border: 1px;
+    background-color: #e9ce89;
+}
+
+.wallet {
+    height: min-content;
+    margin: 5px;
+    width: min-content;
+    padding: 40px 50px;
+    
+    border: 5px solid #a55b2a;
+    background-color: #b36633;
+}
+.wallet-box {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+}
+.wallet h2 {
+    text-align: center;
+
+    color: #e9ce89;
+}
+.wallet input {
+    margin: 10px;
+    font-weight: 900;
+    font-size: 20px;
+    
+    background-color: #1e1900;
+}
+.wallet-P {
+    color: #c4a6ff;
+}
+.wallet-G {
+    color: #fdb720;
+}
+.wallet-S {
+    color: #d7d7d7;
+}
+.wallet-C {
+    color: #ff7d32;
+}
+
+.stats {
+    margin: 5px;
+    width: min-content;
+    padding: 30px 20px;
+    display: grid;
+    grid-template-columns: 160px 90px;
+    align-items: center;
+
+    border: 5px solid #a55b2a;
+    background-color: #df853b;
+}
+.stats p {
+    font-size: 20px;
+    margin: 10px;
+    text-align: end;
+
+    color: rgb(0, 0, 0);
+}
+.stats input {
+    height: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(196, 117, 53);
+}

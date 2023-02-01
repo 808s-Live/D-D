@@ -1,0 +1,78 @@
+
+.info-users {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.info-box {
+    width: 400px;
+    margin: 20px;
+
+}
+.info-name {
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+
+    background-color: brown;
+    color: #fbf3e1;
+}
+.info-content {
+    display: flex;
+    justify-content: space-around;
+    border: 5px solid #a55b2a;
+    background-color: #df853b;
+}
+.info-content h4{
+    /* text-align: center; */
+    align-items: center;
+
+    color: #000000;
+}
+.info-content-p{
+    text-align: center;
+    align-items: center;
+
+    color: #000000;
+}
+.stats {
+    padding: 2vw;
+    border-top: 3px solid #000000;
+    background-color: #df853b;
+}
+.box-head{
+    text-align: center;
+    align-items: center;
+
+    color: #000000;
+}
+.stats p{
+    padding-right: 1vw;
+    text-align: end;
+    align-items: center;
+
+    color: #000000;
+}
+.wallet-box {
+    padding: 2vw;
+    border-top: 3px solid #000000;
+    background-color: #b36633;
+}
+.wallet-box {
+    font-size: 20px;
+    color: #fbf3e1;
+    text-align: center;
+}
+.wallet-P {
+    color: #c4a6ff;
+}
+.wallet-G {
+    color: #fdb720;
+}
+.wallet-S {
+    color: #d7d7d7;
+}
+.wallet-C {
+    color: #ff7d32;
+}

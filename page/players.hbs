@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/singUp.css">
+    <title>SingUp</title>
+</head>
+<body>
+    <section class="info-users">
+            {{#each dataJson}}
+                <div class="info-box">
+                    <h3 class="info-name">
+                        <a href="/players/{{id}}">{{UserName}}</a>
+                    </h3>
+                    <div class="info-content">
+                        <div class="stats">
+                            <h4 class="box-head">Характеристика</h4>
+                            <p>Макс Хп: {{hp}}</p>
+                            <p>Макс Мана: {{mana}}</p>
+                            <p>Сила: {{strong}}</p>
+                            <p>Выносливость: {{endurance}}</p>
+                            <p>Ловкость: {{agility}}</p>
+                            <p>Интеллект: {{intelligence}}</p>
+                            <p>Защита: {{protection}}</p>
+                            <p>Свет: {{light}}</p>
+                            <p>Тьма: {{dark}}</p>
+                        </div>
+                        <div class="wallet-box">
+                            <h4 class="box-head">Кошелек</h4>
+                            <p>П.М. : <samp class="wallet-P">{{platinum}}</samp></p>
+                            <p>З.М. : <samp class="wallet-G">{{gold}}</samp></p>
+                            <p>С.М. : <samp class="wallet-S">{{silver}}</samp></p>
+                            <p>М.М. : <samp class="wallet-C">{{cuprum}}</samp></p>
+                        </div>
+                        
+                        
+                    </div>
+                    {{!-- <form action="/players" method="post">
+                        <button name="id" value="{{id}}">Edit</button>
+                    </form> --}}
+                </div>
+            {{/each}}
+    </section>
+</body>
+</html>

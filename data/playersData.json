@@ -1,20 +1,20 @@
 [
 	{
-		"UserName": " Тым ЭлЪ",
-		"UserPassword": "000",
-		"hp": "31",
-		"mana": "6",
-		"strong": "77",
-		"endurance": "4443",
-		"agility": "5",
-		"intelligence": "-1",
-		"protection": "3",
-		"light": "2",
-		"dark": "12",
+		"UserName": "Лютер",
+		"UserPassword": "1234",
+		"hp": "1",
+		"mana": "1",
+		"strong": "2",
+		"endurance": "0",
+		"agility": "0",
+		"intelligence": "0",
+		"protection": "0",
+		"light": "0",
+		"dark": "0",
 		"platinum": "1",
-		"gold": "432",
-		"silver": "34",
-		"cuprum": "34",
-		"idPlayer": "38158675-7ab3-4d98-9b82-b87b1dd5ee03"
+		"gold": "1",
+		"silver": "1",
+		"cuprum": "1",
+		"id": "29c2a5d7-bdf9-43bf-b1b3-bde3f1a4cfef"
 	}
 ]

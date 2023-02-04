@@ -55,6 +55,7 @@
     font-size: 20px;
     
     background-color: #1e1900;
+    /* background: url(../image/4813237.png); */
 }
 .wallet-P {
     color: #c4a6ff;
@@ -94,3 +95,9 @@
     color: white;
     background-color: rgb(196, 117, 53);
 }
+input[type=text]:focus {
+    background-color: lightblue;
+}
+input[type=text]:focus {
+    border: 3px solid #555;
+  }
